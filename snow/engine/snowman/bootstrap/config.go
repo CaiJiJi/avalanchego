@@ -4,13 +4,13 @@
 package bootstrap
 
 import (
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/network/p2p"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/engine/common/tracker"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
-	"github.com/ava-labs/avalanchego/snow/validators"
+	"github.com/CaiJiJi/avalanchego/database"
+	"github.com/CaiJiJi/avalanchego/network/p2p"
+	"github.com/CaiJiJi/avalanchego/snow"
+	"github.com/CaiJiJi/avalanchego/snow/engine/common"
+	"github.com/CaiJiJi/avalanchego/snow/engine/common/tracker"
+	"github.com/CaiJiJi/avalanchego/snow/engine/snowman/block"
+	"github.com/CaiJiJi/avalanchego/snow/validators"
 )
 
 type Config struct {

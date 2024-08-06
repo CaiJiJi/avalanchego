@@ -6,12 +6,12 @@ package node
 import (
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/networking/router"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/snow/networking/router"
+	"github.com/CaiJiJi/avalanchego/snow/validators"
+	"github.com/CaiJiJi/avalanchego/utils/constants"
+	"github.com/CaiJiJi/avalanchego/utils/logging"
+	"github.com/CaiJiJi/avalanchego/version"
 )
 
 type insecureValidatorManager struct {

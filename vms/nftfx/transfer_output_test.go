@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/vms/components/verify"
+	"github.com/CaiJiJi/avalanchego/vms/secp256k1fx"
 )
 
 func TestTransferOutputVerifyNil(t *testing.T) {

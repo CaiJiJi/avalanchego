@@ -8,11 +8,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/encdb"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
+	"github.com/CaiJiJi/avalanchego/database"
+	"github.com/CaiJiJi/avalanchego/database/encdb"
+	"github.com/CaiJiJi/avalanchego/database/memdb"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/utils/crypto/secp256k1"
 )
 
 // Test user password, must meet minimum complexity/length requirements

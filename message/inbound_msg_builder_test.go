@@ -10,11 +10,11 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/proto/pb/p2p"
-	"github.com/ava-labs/avalanchego/utils/compression"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/proto/pb/p2p"
+	"github.com/CaiJiJi/avalanchego/utils/compression"
+	"github.com/CaiJiJi/avalanchego/utils/logging"
+	"github.com/CaiJiJi/avalanchego/utils/timer/mockable"
 )
 
 func Test_newMsgBuilder(t *testing.T) {

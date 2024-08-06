@@ -11,17 +11,17 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/vms/platformvm/reward"
-	"github.com/ava-labs/avalanchego/vms/platformvm/state"
-	"github.com/ava-labs/avalanchego/vms/platformvm/status"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/CaiJiJi/avalanchego/database"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/utils/crypto/secp256k1"
+	"github.com/CaiJiJi/avalanchego/utils/hashing"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/reward"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/state"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/status"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/txs"
+	"github.com/CaiJiJi/avalanchego/vms/secp256k1fx"
 
-	walletsigner "github.com/ava-labs/avalanchego/wallet/chain/p/signer"
+	walletsigner "github.com/CaiJiJi/avalanchego/wallet/chain/p/signer"
 )
 
 func TestProposalTxExecuteAddDelegator(t *testing.T) {

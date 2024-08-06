@@ -4,9 +4,9 @@
 package pubsub
 
 import (
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/utils/formatting/address"
-	"github.com/ava-labs/avalanchego/utils/json"
+	"github.com/CaiJiJi/avalanchego/api"
+	"github.com/CaiJiJi/avalanchego/utils/formatting/address"
+	"github.com/CaiJiJi/avalanchego/utils/json"
 )
 
 // NewBloom command for a new bloom filter

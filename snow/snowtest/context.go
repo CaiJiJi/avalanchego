@@ -11,13 +11,13 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/api/metrics"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/validators/validatorstest"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/CaiJiJi/avalanchego/api/metrics"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/snow"
+	"github.com/CaiJiJi/avalanchego/snow/validators/validatorstest"
+	"github.com/CaiJiJi/avalanchego/utils/constants"
+	"github.com/CaiJiJi/avalanchego/utils/crypto/bls"
+	"github.com/CaiJiJi/avalanchego/utils/logging"
 )
 
 var (

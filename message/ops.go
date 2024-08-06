@@ -7,8 +7,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/proto/pb/p2p"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/CaiJiJi/avalanchego/proto/pb/p2p"
+	"github.com/CaiJiJi/avalanchego/utils/set"
 )
 
 // Op is an opcode

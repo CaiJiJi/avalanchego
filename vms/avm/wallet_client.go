@@ -7,12 +7,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/json"
-	"github.com/ava-labs/avalanchego/utils/rpc"
+	"github.com/CaiJiJi/avalanchego/api"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/utils/constants"
+	"github.com/CaiJiJi/avalanchego/utils/formatting"
+	"github.com/CaiJiJi/avalanchego/utils/json"
+	"github.com/CaiJiJi/avalanchego/utils/rpc"
 )
 
 var _ WalletClient = (*client)(nil)

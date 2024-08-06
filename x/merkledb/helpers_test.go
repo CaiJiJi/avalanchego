@@ -10,10 +10,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/maybe"
+	"github.com/CaiJiJi/avalanchego/database/memdb"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/utils/hashing"
+	"github.com/CaiJiJi/avalanchego/utils/maybe"
 )
 
 func getBasicDB() (*merkleDB, error) {

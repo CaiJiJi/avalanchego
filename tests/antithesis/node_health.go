@@ -9,7 +9,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/ava-labs/avalanchego/api/health"
+	"github.com/CaiJiJi/avalanchego/api/health"
 )
 
 // Waits for the nodes at the provided URIs to report healthy.

@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/CaiJiJi/avalanchego/utils/math"
 )
 
 func Test_Dimensions_Add(t *testing.T) {

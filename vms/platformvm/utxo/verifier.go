@@ -7,16 +7,16 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/platformvm/fx"
-	"github.com/ava-labs/avalanchego/vms/platformvm/stakeable"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/snow"
+	"github.com/CaiJiJi/avalanchego/utils/hashing"
+	"github.com/CaiJiJi/avalanchego/utils/math"
+	"github.com/CaiJiJi/avalanchego/utils/timer/mockable"
+	"github.com/CaiJiJi/avalanchego/vms/components/avax"
+	"github.com/CaiJiJi/avalanchego/vms/components/verify"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/fx"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/stakeable"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/txs"
 )
 
 var (

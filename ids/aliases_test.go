@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/ids/idstest"
+	"github.com/CaiJiJi/avalanchego/ids/idstest"
 
-	. "github.com/ava-labs/avalanchego/ids"
+	. "github.com/CaiJiJi/avalanchego/ids"
 )
 
 func TestAliaser(t *testing.T) {

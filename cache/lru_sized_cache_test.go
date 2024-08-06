@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/cache/cachetest"
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/cache/cachetest"
+	"github.com/CaiJiJi/avalanchego/ids"
 
-	. "github.com/ava-labs/avalanchego/cache"
+	. "github.com/CaiJiJi/avalanchego/cache"
 )
 
 func TestSizedLRU(t *testing.T) {

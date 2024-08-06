@@ -7,13 +7,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowball"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman/snowmantest"
-	"github.com/ava-labs/avalanchego/snow/snowtest"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/bag"
-	"github.com/ava-labs/avalanchego/utils/sampler"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/snow/consensus/snowball"
+	"github.com/CaiJiJi/avalanchego/snow/consensus/snowman/snowmantest"
+	"github.com/CaiJiJi/avalanchego/snow/snowtest"
+	"github.com/CaiJiJi/avalanchego/utils"
+	"github.com/CaiJiJi/avalanchego/utils/bag"
+	"github.com/CaiJiJi/avalanchego/utils/sampler"
 )
 
 type Network struct {

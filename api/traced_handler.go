@@ -8,7 +8,7 @@ import (
 
 	"go.opentelemetry.io/otel/attribute"
 
-	"github.com/ava-labs/avalanchego/trace"
+	"github.com/CaiJiJi/avalanchego/trace"
 
 	oteltrace "go.opentelemetry.io/otel/trace"
 )

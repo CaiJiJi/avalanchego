@@ -9,14 +9,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/consensus/avalanche"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowstorm"
-	"github.com/ava-labs/avalanchego/snow/engine/avalanche/vertex"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/hashing"
+	"github.com/CaiJiJi/avalanchego/cache"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/snow/choices"
+	"github.com/CaiJiJi/avalanchego/snow/consensus/avalanche"
+	"github.com/CaiJiJi/avalanchego/snow/consensus/snowstorm"
+	"github.com/CaiJiJi/avalanchego/snow/engine/avalanche/vertex"
+	"github.com/CaiJiJi/avalanchego/utils/formatting"
+	"github.com/CaiJiJi/avalanchego/utils/hashing"
 )
 
 var (

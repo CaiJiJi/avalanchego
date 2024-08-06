@@ -9,19 +9,19 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/formatting/address"
-	"github.com/ava-labs/avalanchego/vms/avm/fxs"
-	"github.com/ava-labs/avalanchego/vms/avm/txs"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/nftfx"
-	"github.com/ava-labs/avalanchego/vms/propertyfx"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/utils"
+	"github.com/CaiJiJi/avalanchego/utils/formatting"
+	"github.com/CaiJiJi/avalanchego/utils/formatting/address"
+	"github.com/CaiJiJi/avalanchego/vms/avm/fxs"
+	"github.com/CaiJiJi/avalanchego/vms/avm/txs"
+	"github.com/CaiJiJi/avalanchego/vms/components/avax"
+	"github.com/CaiJiJi/avalanchego/vms/components/verify"
+	"github.com/CaiJiJi/avalanchego/vms/nftfx"
+	"github.com/CaiJiJi/avalanchego/vms/propertyfx"
+	"github.com/CaiJiJi/avalanchego/vms/secp256k1fx"
 
-	avajson "github.com/ava-labs/avalanchego/utils/json"
+	avajson "github.com/CaiJiJi/avalanchego/utils/json"
 )
 
 var (

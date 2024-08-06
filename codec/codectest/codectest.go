@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	codecpkg "github.com/ava-labs/avalanchego/codec"
+	codecpkg "github.com/CaiJiJi/avalanchego/codec"
 )
 
 // A NamedTest couples a test in the suite with a human-readable name.

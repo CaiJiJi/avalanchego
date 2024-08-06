@@ -7,16 +7,16 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/platformvm"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
-	"github.com/ava-labs/avalanchego/wallet/chain/p/builder"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary/common"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/vms/components/avax"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/txs"
+	"github.com/CaiJiJi/avalanchego/vms/secp256k1fx"
+	"github.com/CaiJiJi/avalanchego/wallet/chain/p/builder"
+	"github.com/CaiJiJi/avalanchego/wallet/subnet/primary/common"
 
-	vmsigner "github.com/ava-labs/avalanchego/vms/platformvm/signer"
-	walletsigner "github.com/ava-labs/avalanchego/wallet/chain/p/signer"
+	vmsigner "github.com/CaiJiJi/avalanchego/vms/platformvm/signer"
+	walletsigner "github.com/CaiJiJi/avalanchego/wallet/chain/p/signer"
 )
 
 var (

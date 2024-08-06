@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/dbtest"
-	"github.com/ava-labs/avalanchego/database/memdb"
+	"github.com/CaiJiJi/avalanchego/database"
+	"github.com/CaiJiJi/avalanchego/database/dbtest"
+	"github.com/CaiJiJi/avalanchego/database/memdb"
 )
 
 var errTest = errors.New("non-nil error")

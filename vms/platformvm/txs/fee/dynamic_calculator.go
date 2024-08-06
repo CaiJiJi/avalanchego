@@ -4,8 +4,8 @@
 package fee
 
 import (
-	"github.com/ava-labs/avalanchego/vms/components/fee"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
+	"github.com/CaiJiJi/avalanchego/vms/components/fee"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/txs"
 )
 
 var _ Calculator = (*dynamicCalculator)(nil)

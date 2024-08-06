@@ -6,12 +6,12 @@ package builder
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/platformvm/signer"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary/common"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/vms/components/avax"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/signer"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/txs"
+	"github.com/CaiJiJi/avalanchego/vms/secp256k1fx"
+	"github.com/CaiJiJi/avalanchego/wallet/subnet/primary/common"
 )
 
 var _ Builder = (*builderWithOptions)(nil)

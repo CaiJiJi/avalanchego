@@ -126,9 +126,9 @@ trigger an Antithesis test run outside of the normal schedule. This
 can be performed against master or an arbitrary branch:
 
  - Navigate to the ['Actions' tab of the avalanchego
-   repo](https://github.com/ava-labs/avalanchego/actions).
+   repo](https://github.com/CaiJiJi/avalanchego/actions).
  - Select the [Publish Antithesis
-   Images](https://github.com/ava-labs/avalanchego/actions/workflows/publish_antithesis_images.yml)
+   Images](https://github.com/CaiJiJi/avalanchego/actions/workflows/publish_antithesis_images.yml)
    workflow on the left.
  - Find the 'Run workflow' drop-down on the right and trigger the
    workflow against the desired branch. The default value for
@@ -137,7 +137,7 @@ can be performed against master or an arbitrary branch:
    of the scheduled runs.
  - Wait for the publication job to complete successfully so that the
    images are available to be tested against.
- - Select the [Trigger Antithesis Test Runs](https://github.com/ava-labs/avalanchego/actions/workflows/trigger-antithesis-runs.yml)
+ - Select the [Trigger Antithesis Test Runs](https://github.com/CaiJiJi/avalanchego/actions/workflows/trigger-antithesis-runs.yml)
    workflow on the left.
  - Find the 'Run workflow' drop-down on the right and trigger the
    workflow against the desired branch. The branch only determines the

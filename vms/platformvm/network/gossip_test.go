@@ -11,12 +11,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
-	"github.com/ava-labs/avalanchego/vms/txs/mempool"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/utils/logging"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/txs"
+	"github.com/CaiJiJi/avalanchego/vms/txs/mempool"
 
-	pmempool "github.com/ava-labs/avalanchego/vms/platformvm/txs/mempool"
+	pmempool "github.com/CaiJiJi/avalanchego/vms/platformvm/txs/mempool"
 )
 
 var errFoo = errors.New("foo")

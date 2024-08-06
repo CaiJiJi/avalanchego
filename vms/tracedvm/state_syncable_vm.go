@@ -8,7 +8,7 @@ import (
 
 	"go.opentelemetry.io/otel/attribute"
 
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
+	"github.com/CaiJiJi/avalanchego/snow/engine/snowman/block"
 
 	oteltrace "go.opentelemetry.io/otel/trace"
 )

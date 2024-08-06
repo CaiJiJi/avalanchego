@@ -15,35 +15,35 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/cache/metercacher"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/linkeddb"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/uptime"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/timer"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/components/fee"
-	"github.com/ava-labs/avalanchego/vms/platformvm/block"
-	"github.com/ava-labs/avalanchego/vms/platformvm/config"
-	"github.com/ava-labs/avalanchego/vms/platformvm/fx"
-	"github.com/ava-labs/avalanchego/vms/platformvm/genesis"
-	"github.com/ava-labs/avalanchego/vms/platformvm/metrics"
-	"github.com/ava-labs/avalanchego/vms/platformvm/reward"
-	"github.com/ava-labs/avalanchego/vms/platformvm/status"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
+	"github.com/CaiJiJi/avalanchego/cache"
+	"github.com/CaiJiJi/avalanchego/cache/metercacher"
+	"github.com/CaiJiJi/avalanchego/database"
+	"github.com/CaiJiJi/avalanchego/database/linkeddb"
+	"github.com/CaiJiJi/avalanchego/database/prefixdb"
+	"github.com/CaiJiJi/avalanchego/database/versiondb"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/snow"
+	"github.com/CaiJiJi/avalanchego/snow/choices"
+	"github.com/CaiJiJi/avalanchego/snow/uptime"
+	"github.com/CaiJiJi/avalanchego/snow/validators"
+	"github.com/CaiJiJi/avalanchego/utils/constants"
+	"github.com/CaiJiJi/avalanchego/utils/crypto/bls"
+	"github.com/CaiJiJi/avalanchego/utils/hashing"
+	"github.com/CaiJiJi/avalanchego/utils/logging"
+	"github.com/CaiJiJi/avalanchego/utils/timer"
+	"github.com/CaiJiJi/avalanchego/utils/wrappers"
+	"github.com/CaiJiJi/avalanchego/vms/components/avax"
+	"github.com/CaiJiJi/avalanchego/vms/components/fee"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/block"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/config"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/fx"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/genesis"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/metrics"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/reward"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/status"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/txs"
 
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/CaiJiJi/avalanchego/utils/math"
 )
 
 const (
@@ -207,7 +207,7 @@ type State interface {
 	Close() error
 }
 
-// Prior to https://github.com/ava-labs/avalanchego/pull/1719, blocks were
+// Prior to https://github.com/CaiJiJi/avalanchego/pull/1719, blocks were
 // stored as a map from blkID to stateBlk. Nodes synced prior to this PR may
 // still have blocks partially stored using this legacy format.
 //

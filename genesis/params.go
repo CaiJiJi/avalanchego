@@ -6,11 +6,11 @@ package genesis
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/vms/platformvm/reward"
+	"github.com/CaiJiJi/avalanchego/utils/constants"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/reward"
 
-	feecomponent "github.com/ava-labs/avalanchego/vms/components/fee"
-	txfee "github.com/ava-labs/avalanchego/vms/platformvm/txs/fee"
+	feecomponent "github.com/CaiJiJi/avalanchego/vms/components/fee"
+	txfee "github.com/CaiJiJi/avalanchego/vms/platformvm/txs/fee"
 )
 
 type StakingConfig struct {

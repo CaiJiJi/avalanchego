@@ -3,7 +3,7 @@
 
 package atomic
 
-import "github.com/ava-labs/avalanchego/database"
+import "github.com/CaiJiJi/avalanchego/database"
 
 // WriteAll writes all of the batches to the underlying database of baseBatch.
 // Assumes all batches have the same underlying database.

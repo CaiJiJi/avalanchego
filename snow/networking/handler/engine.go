@@ -4,9 +4,9 @@
 package handler
 
 import (
-	"github.com/ava-labs/avalanchego/proto/pb/p2p"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
+	"github.com/CaiJiJi/avalanchego/proto/pb/p2p"
+	"github.com/CaiJiJi/avalanchego/snow"
+	"github.com/CaiJiJi/avalanchego/snow/engine/common"
 )
 
 // Engine is a wrapper around a consensus engine's components.

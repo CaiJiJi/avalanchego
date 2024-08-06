@@ -6,9 +6,9 @@ package txstest
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/vms/platformvm/config"
-	"github.com/ava-labs/avalanchego/wallet/chain/p/builder"
+	"github.com/CaiJiJi/avalanchego/snow"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/config"
+	"github.com/CaiJiJi/avalanchego/wallet/chain/p/builder"
 )
 
 func newContext(

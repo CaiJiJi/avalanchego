@@ -12,13 +12,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/maybe"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/CaiJiJi/avalanchego/database"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/utils/hashing"
+	"github.com/CaiJiJi/avalanchego/utils/maybe"
+	"github.com/CaiJiJi/avalanchego/utils/set"
 
-	pb "github.com/ava-labs/avalanchego/proto/pb/sync"
+	pb "github.com/CaiJiJi/avalanchego/proto/pb/sync"
 )
 
 func Test_Proof_Empty(t *testing.T) {

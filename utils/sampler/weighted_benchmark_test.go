@@ -8,7 +8,7 @@ import (
 	"math"
 	"testing"
 
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/CaiJiJi/avalanchego/utils/math"
 )
 
 func BenchmarkWeightedHeapSampling(b *testing.B) {

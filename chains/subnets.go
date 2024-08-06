@@ -7,9 +7,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/subnets"
-	"github.com/ava-labs/avalanchego/utils/constants"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/subnets"
+	"github.com/CaiJiJi/avalanchego/utils/constants"
 )
 
 var ErrNoPrimaryNetworkConfig = errors.New("no subnet config for primary network found")

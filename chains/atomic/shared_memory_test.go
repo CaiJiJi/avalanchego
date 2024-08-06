@@ -6,12 +6,12 @@ package atomic_test
 import (
 	"testing"
 
-	"github.com/ava-labs/avalanchego/chains/atomic/atomictest"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/chains/atomic/atomictest"
+	"github.com/CaiJiJi/avalanchego/database/memdb"
+	"github.com/CaiJiJi/avalanchego/database/prefixdb"
+	"github.com/CaiJiJi/avalanchego/ids"
 
-	. "github.com/ava-labs/avalanchego/chains/atomic"
+	. "github.com/CaiJiJi/avalanchego/chains/atomic"
 )
 
 func TestSharedMemory(t *testing.T) {

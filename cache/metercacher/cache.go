@@ -8,7 +8,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/cache"
+	"github.com/CaiJiJi/avalanchego/cache"
 )
 
 var _ cache.Cacher[struct{}, struct{}] = (*Cache[struct{}, struct{}])(nil)

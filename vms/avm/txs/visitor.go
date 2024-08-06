@@ -3,7 +3,7 @@
 
 package txs
 
-import "github.com/ava-labs/avalanchego/vms/components/avax"
+import "github.com/CaiJiJi/avalanchego/vms/components/avax"
 
 var _ Visitor = (*utxoGetter)(nil)
 

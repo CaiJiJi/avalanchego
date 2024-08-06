@@ -16,7 +16,7 @@ run:
   modules-download-mode: readonly
 
   # Include non-test files tagged as test-only.
-  # Context: https://github.com/ava-labs/avalanchego/pull/3173
+  # Context: https://github.com/CaiJiJi/avalanchego/pull/3173
   build-tags:
     - test
 
@@ -93,7 +93,7 @@ linters-settings:
       packages:
         deny:
           - pkg: "container/list"
-            desc: github.com/ava-labs/avalanchego/utils/linked should be used instead.
+            desc: github.com/CaiJiJi/avalanchego/utils/linked should be used instead.
           - pkg: "github.com/golang/mock/gomock"
             desc: go.uber.org/mock/gomock should be used instead.
           - pkg: "github.com/stretchr/testify/assert"
@@ -120,7 +120,7 @@ linters-settings:
       - standard
       - default
       - blank
-      - prefix(github.com/ava-labs/avalanchego)
+      - prefix(github.com/CaiJiJi/avalanchego)
       - alias
       - dot
     skip-generated: true
@@ -135,9 +135,9 @@ linters-settings:
     no-extra-aliases: false
     # List of aliases
     alias:
-      - pkg: github.com/ava-labs/avalanchego/utils/math
+      - pkg: github.com/CaiJiJi/avalanchego/utils/math
         alias: safemath
-      - pkg: github.com/ava-labs/avalanchego/utils/json
+      - pkg: github.com/CaiJiJi/avalanchego/utils/json
         alias: avajson
   revive:
     rules:

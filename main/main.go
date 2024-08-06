@@ -12,9 +12,9 @@ import (
 	"github.com/spf13/pflag"
 	"golang.org/x/term"
 
-	"github.com/ava-labs/avalanchego/app"
-	"github.com/ava-labs/avalanchego/config"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/CaiJiJi/avalanchego/app"
+	"github.com/CaiJiJi/avalanchego/config"
+	"github.com/CaiJiJi/avalanchego/version"
 )
 
 func main() {

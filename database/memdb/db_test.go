@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/database/dbtest"
+	"github.com/CaiJiJi/avalanchego/database/dbtest"
 )
 
 func TestInterface(t *testing.T) {

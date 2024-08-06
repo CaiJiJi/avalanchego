@@ -9,12 +9,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/genesis"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary/common"
+	"github.com/CaiJiJi/avalanchego/utils/constants"
+	"github.com/CaiJiJi/avalanchego/utils/set"
+	"github.com/CaiJiJi/avalanchego/vms/example/xsvm/genesis"
+	"github.com/CaiJiJi/avalanchego/vms/secp256k1fx"
+	"github.com/CaiJiJi/avalanchego/wallet/subnet/primary"
+	"github.com/CaiJiJi/avalanchego/wallet/subnet/primary/common"
 )
 
 func Command() *cobra.Command {

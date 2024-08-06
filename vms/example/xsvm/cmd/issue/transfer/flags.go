@@ -6,11 +6,11 @@ package transfer
 import (
 	"github.com/spf13/pflag"
 
-	"github.com/ava-labs/avalanchego/genesis"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/utils/units"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary"
+	"github.com/CaiJiJi/avalanchego/genesis"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/utils/crypto/secp256k1"
+	"github.com/CaiJiJi/avalanchego/utils/units"
+	"github.com/CaiJiJi/avalanchego/wallet/subnet/primary"
 )
 
 const (

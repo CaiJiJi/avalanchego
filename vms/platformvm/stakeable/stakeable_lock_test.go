@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/ava-labs/avalanchego/vms/components/avax"
+	"github.com/CaiJiJi/avalanchego/vms/components/avax"
 )
 
 var errTest = errors.New("hi mom")

@@ -6,9 +6,9 @@ package block
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/tx"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/utils/hashing"
+	"github.com/CaiJiJi/avalanchego/vms/example/xsvm/tx"
 )
 
 // Stateless blocks are blocks as they are marshalled/unmarshalled and sent over

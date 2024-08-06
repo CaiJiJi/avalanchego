@@ -4,8 +4,8 @@
 package math
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/heap"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/utils/heap"
 )
 
 var _ AveragerHeap = (*averagerHeap)(nil)

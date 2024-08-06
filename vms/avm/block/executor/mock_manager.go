@@ -12,12 +12,12 @@ package executor
 import (
 	reflect "reflect"
 
-	ids "github.com/ava-labs/avalanchego/ids"
-	snowman "github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	set "github.com/ava-labs/avalanchego/utils/set"
-	block "github.com/ava-labs/avalanchego/vms/avm/block"
-	state "github.com/ava-labs/avalanchego/vms/avm/state"
-	txs "github.com/ava-labs/avalanchego/vms/avm/txs"
+	ids "github.com/CaiJiJi/avalanchego/ids"
+	snowman "github.com/CaiJiJi/avalanchego/snow/consensus/snowman"
+	set "github.com/CaiJiJi/avalanchego/utils/set"
+	block "github.com/CaiJiJi/avalanchego/vms/avm/block"
+	state "github.com/CaiJiJi/avalanchego/vms/avm/state"
+	txs "github.com/CaiJiJi/avalanchego/vms/avm/txs"
 	gomock "go.uber.org/mock/gomock"
 )
 

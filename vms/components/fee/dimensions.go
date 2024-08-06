@@ -3,7 +3,7 @@
 
 package fee
 
-import "github.com/ava-labs/avalanchego/utils/math"
+import "github.com/CaiJiJi/avalanchego/utils/math"
 
 const (
 	Bandwidth Dimension = iota

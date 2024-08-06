@@ -3,7 +3,7 @@
 
 package chains
 
-import "github.com/ava-labs/avalanchego/ids"
+import "github.com/CaiJiJi/avalanchego/ids"
 
 // TestManager implements Manager but does nothing. Always returns nil error.
 // To be used only in tests

@@ -8,8 +8,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/utils/compression"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/CaiJiJi/avalanchego/utils/compression"
+	"github.com/CaiJiJi/avalanchego/utils/logging"
 )
 
 var _ Creator = (*creator)(nil)

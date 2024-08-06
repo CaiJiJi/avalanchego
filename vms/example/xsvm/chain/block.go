@@ -8,16 +8,16 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/execute"
+	"github.com/CaiJiJi/avalanchego/database"
+	"github.com/CaiJiJi/avalanchego/database/versiondb"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/snow"
+	"github.com/CaiJiJi/avalanchego/snow/consensus/snowman"
+	"github.com/CaiJiJi/avalanchego/utils/set"
+	"github.com/CaiJiJi/avalanchego/vms/example/xsvm/execute"
 
-	smblock "github.com/ava-labs/avalanchego/snow/engine/snowman/block"
-	xsblock "github.com/ava-labs/avalanchego/vms/example/xsvm/block"
+	smblock "github.com/CaiJiJi/avalanchego/snow/engine/snowman/block"
+	xsblock "github.com/CaiJiJi/avalanchego/vms/example/xsvm/block"
 )
 
 const maxClockSkew = 10 * time.Second

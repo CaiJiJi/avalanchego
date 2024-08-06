@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/ava-labs/avalanchego/api/metrics"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/filesystem"
-	"github.com/ava-labs/avalanchego/utils/resource"
-	"github.com/ava-labs/avalanchego/vms"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/runtime"
+	"github.com/CaiJiJi/avalanchego/api/metrics"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/utils/filesystem"
+	"github.com/CaiJiJi/avalanchego/utils/resource"
+	"github.com/CaiJiJi/avalanchego/vms"
+	"github.com/CaiJiJi/avalanchego/vms/rpcchainvm"
+	"github.com/CaiJiJi/avalanchego/vms/rpcchainvm/runtime"
 )
 
 var (

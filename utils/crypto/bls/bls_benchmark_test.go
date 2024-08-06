@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/utils"
+	"github.com/CaiJiJi/avalanchego/utils"
 )
 
 var sizes = []int{

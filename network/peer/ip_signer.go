@@ -8,9 +8,9 @@ import (
 	"net/netip"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
+	"github.com/CaiJiJi/avalanchego/utils"
+	"github.com/CaiJiJi/avalanchego/utils/crypto/bls"
+	"github.com/CaiJiJi/avalanchego/utils/timer/mockable"
 )
 
 // IPSigner will return a signedIP for the current value of our dynamic IP.

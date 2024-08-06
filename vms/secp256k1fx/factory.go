@@ -4,8 +4,8 @@
 package secp256k1fx
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/fx"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/vms/fx"
 )
 
 const Name = "secp256k1fx"

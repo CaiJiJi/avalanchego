@@ -9,8 +9,8 @@ import (
 
 	_ "embed"
 
-	"github.com/ava-labs/avalanchego/upgrade"
-	"github.com/ava-labs/avalanchego/utils/constants"
+	"github.com/CaiJiJi/avalanchego/upgrade"
+	"github.com/CaiJiJi/avalanchego/utils/constants"
 )
 
 const (

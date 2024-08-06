@@ -7,12 +7,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/vms/platformvm/block"
-	"github.com/ava-labs/avalanchego/vms/platformvm/state"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs/mempool"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/snow"
+	"github.com/CaiJiJi/avalanchego/utils/set"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/block"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/state"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/txs/mempool"
 )
 
 var errConflictingParentTxs = errors.New("block contains a transaction that conflicts with a transaction in a parent block")

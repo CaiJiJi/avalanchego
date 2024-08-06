@@ -3,7 +3,7 @@
 
 package tx
 
-import "github.com/ava-labs/avalanchego/ids"
+import "github.com/CaiJiJi/avalanchego/ids"
 
 type Payload struct {
 	// Sender + Nonce provides replay protection

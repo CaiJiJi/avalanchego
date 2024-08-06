@@ -11,8 +11,8 @@ import (
 	"github.com/onsi/ginkgo/v2"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/tests/fixture/e2e"
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
+	"github.com/CaiJiJi/avalanchego/tests/fixture/e2e"
+	"github.com/CaiJiJi/avalanchego/tests/fixture/tmpnet"
 )
 
 func TestUpgrade(t *testing.T) {

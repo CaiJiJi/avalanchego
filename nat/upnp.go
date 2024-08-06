@@ -14,7 +14,7 @@ import (
 	"github.com/huin/goupnp/dcps/internetgateway1"
 	"github.com/huin/goupnp/dcps/internetgateway2"
 
-	"github.com/ava-labs/avalanchego/utils/ips"
+	"github.com/CaiJiJi/avalanchego/utils/ips"
 )
 
 const (

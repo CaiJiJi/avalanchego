@@ -14,8 +14,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ava-labs/avalanchego/tests/fixture/tmpnet"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/CaiJiJi/avalanchego/tests/fixture/tmpnet"
+	"github.com/CaiJiJi/avalanchego/version"
 )
 
 const cliVersion = "0.0.1"

@@ -6,8 +6,8 @@ package cache
 import (
 	"sync"
 
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/linked"
+	"github.com/CaiJiJi/avalanchego/utils"
+	"github.com/CaiJiJi/avalanchego/utils/linked"
 )
 
 var _ Cacher[struct{}, any] = (*sizedLRU[struct{}, any])(nil)

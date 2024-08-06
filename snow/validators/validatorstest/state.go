@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/validators"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/snow/validators"
 )
 
 var (
@@ -23,7 +23,7 @@ var (
 
 var _ validators.State = (*State)(nil)
 
-// TestState is an alias for State because ava-labs/coreth uses the original
+// TestState is an alias for State because CaiJiJi/coreth uses the original
 // identifier and this change would otherwise break the build.
 //
 // Deprecated: use [State].

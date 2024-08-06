@@ -12,11 +12,11 @@ package sender
 import (
 	reflect "reflect"
 
-	ids "github.com/ava-labs/avalanchego/ids"
-	message "github.com/ava-labs/avalanchego/message"
-	common "github.com/ava-labs/avalanchego/snow/engine/common"
-	subnets "github.com/ava-labs/avalanchego/subnets"
-	set "github.com/ava-labs/avalanchego/utils/set"
+	ids "github.com/CaiJiJi/avalanchego/ids"
+	message "github.com/CaiJiJi/avalanchego/message"
+	common "github.com/CaiJiJi/avalanchego/snow/engine/common"
+	subnets "github.com/CaiJiJi/avalanchego/subnets"
+	set "github.com/CaiJiJi/avalanchego/utils/set"
 	gomock "go.uber.org/mock/gomock"
 )
 

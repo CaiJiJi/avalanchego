@@ -10,10 +10,10 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/CaiJiJi/avalanchego/utils"
+	"github.com/CaiJiJi/avalanchego/utils/wrappers"
 
-	avajson "github.com/ava-labs/avalanchego/utils/json"
+	avajson "github.com/CaiJiJi/avalanchego/utils/json"
 )
 
 // The minimum capacity of a set

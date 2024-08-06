@@ -14,15 +14,15 @@ import (
 	"github.com/antithesishq/antithesis-sdk-go/assert"
 	"github.com/antithesishq/antithesis-sdk-go/lifecycle"
 
-	"github.com/ava-labs/avalanchego/genesis"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/tests/antithesis"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/utils/units"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/api"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/cmd/issue/status"
-	"github.com/ava-labs/avalanchego/vms/example/xsvm/cmd/issue/transfer"
+	"github.com/CaiJiJi/avalanchego/genesis"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/tests/antithesis"
+	"github.com/CaiJiJi/avalanchego/utils/crypto/secp256k1"
+	"github.com/CaiJiJi/avalanchego/utils/set"
+	"github.com/CaiJiJi/avalanchego/utils/units"
+	"github.com/CaiJiJi/avalanchego/vms/example/xsvm/api"
+	"github.com/CaiJiJi/avalanchego/vms/example/xsvm/cmd/issue/status"
+	"github.com/CaiJiJi/avalanchego/vms/example/xsvm/cmd/issue/transfer"
 )
 
 const (

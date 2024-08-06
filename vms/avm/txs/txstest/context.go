@@ -4,10 +4,10 @@
 package txstest
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/vms/avm/config"
-	"github.com/ava-labs/avalanchego/wallet/chain/x/builder"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/snow"
+	"github.com/CaiJiJi/avalanchego/vms/avm/config"
+	"github.com/CaiJiJi/avalanchego/wallet/chain/x/builder"
 )
 
 func newContext(

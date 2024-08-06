@@ -30,13 +30,13 @@ AVALANCHEGO_PATH="$(realpath "${AVALANCHEGO_PATH:-./build/avalanchego}")"
 
 #################################
 # download avalanchego
-# https://github.com/ava-labs/avalanchego/releases
+# https://github.com/CaiJiJi/avalanchego/releases
 GOARCH=$(go env GOARCH)
 GOOS=$(go env GOOS)
-DOWNLOAD_URL=https://github.com/ava-labs/avalanchego/releases/download/v${VERSION}/avalanchego-linux-${GOARCH}-v${VERSION}.tar.gz
+DOWNLOAD_URL=https://github.com/CaiJiJi/avalanchego/releases/download/v${VERSION}/avalanchego-linux-${GOARCH}-v${VERSION}.tar.gz
 DOWNLOAD_PATH=/tmp/avalanchego.tar.gz
 if [[ ${GOOS} == "darwin" ]]; then
-  DOWNLOAD_URL=https://github.com/ava-labs/avalanchego/releases/download/v${VERSION}/avalanchego-macos-v${VERSION}.zip
+  DOWNLOAD_URL=https://github.com/CaiJiJi/avalanchego/releases/download/v${VERSION}/avalanchego-macos-v${VERSION}.zip
   DOWNLOAD_PATH=/tmp/avalanchego.zip
 fi
 

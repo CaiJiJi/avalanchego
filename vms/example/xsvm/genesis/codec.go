@@ -3,7 +3,7 @@
 
 package genesis
 
-import "github.com/ava-labs/avalanchego/vms/example/xsvm/block"
+import "github.com/CaiJiJi/avalanchego/vms/example/xsvm/block"
 
 const CodecVersion = block.CodecVersion
 

@@ -6,9 +6,9 @@ package bootstrapper
 import (
 	"errors"
 
-	"github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/utils/sampler"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/CaiJiJi/avalanchego/utils/math"
+	"github.com/CaiJiJi/avalanchego/utils/sampler"
+	"github.com/CaiJiJi/avalanchego/utils/set"
 )
 
 var errUnexpectedSamplerFailure = errors.New("unexpected sampler failure")

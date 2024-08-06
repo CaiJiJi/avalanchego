@@ -6,8 +6,8 @@ package sampler
 import (
 	"cmp"
 
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/math"
+	"github.com/CaiJiJi/avalanchego/utils"
+	"github.com/CaiJiJi/avalanchego/utils/math"
 )
 
 var (

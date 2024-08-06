@@ -11,13 +11,13 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/vms/proposervm/block"
-	"github.com/ava-labs/avalanchego/vms/proposervm/proposer"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/snow"
+	"github.com/CaiJiJi/avalanchego/snow/consensus/snowman"
+	"github.com/CaiJiJi/avalanchego/vms/proposervm/block"
+	"github.com/CaiJiJi/avalanchego/vms/proposervm/proposer"
 
-	smblock "github.com/ava-labs/avalanchego/snow/engine/snowman/block"
+	smblock "github.com/CaiJiJi/avalanchego/snow/engine/snowman/block"
 )
 
 const (

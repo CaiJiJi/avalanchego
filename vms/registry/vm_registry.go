@@ -6,8 +6,8 @@ package registry
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/vms"
 )
 
 var _ VMRegistry = (*vmRegistry)(nil)

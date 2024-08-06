@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/cb58"
-	"github.com/ava-labs/avalanchego/utils/hashing"
+	"github.com/CaiJiJi/avalanchego/utils"
+	"github.com/CaiJiJi/avalanchego/utils/cb58"
+	"github.com/CaiJiJi/avalanchego/utils/hashing"
 )
 
 const ShortIDLen = 20

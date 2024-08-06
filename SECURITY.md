@@ -14,4 +14,4 @@ Please refer to the [Bug Bounty Page](https://immunefi.com/bounty/avalanche/) fo
 
 ## Supported Versions
 
-Please use the [most recently released version](https://github.com/ava-labs/avalanchego/releases/latest) to perform testing and to validate security issues.
+Please use the [most recently released version](https://github.com/CaiJiJi/avalanchego/releases/latest) to perform testing and to validate security issues.

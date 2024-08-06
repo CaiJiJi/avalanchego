@@ -6,8 +6,8 @@ package metervm
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/utils/metric"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/CaiJiJi/avalanchego/utils/metric"
+	"github.com/CaiJiJi/avalanchego/utils/wrappers"
 )
 
 type vertexMetrics struct {

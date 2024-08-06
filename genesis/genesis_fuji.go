@@ -8,11 +8,11 @@ import (
 
 	_ "embed"
 
-	"github.com/ava-labs/avalanchego/utils/units"
-	"github.com/ava-labs/avalanchego/vms/platformvm/reward"
+	"github.com/CaiJiJi/avalanchego/utils/units"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/reward"
 
-	feecomponent "github.com/ava-labs/avalanchego/vms/components/fee"
-	txfee "github.com/ava-labs/avalanchego/vms/platformvm/txs/fee"
+	feecomponent "github.com/CaiJiJi/avalanchego/vms/components/fee"
+	txfee "github.com/CaiJiJi/avalanchego/vms/platformvm/txs/fee"
 )
 
 var (

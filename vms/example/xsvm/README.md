@@ -45,7 +45,7 @@ Currently there are no fees enforced in the XSVM.
 #### Install
 
 ```bash
-git clone https://github.com/ava-labs/avalanchego.git;
+git clone https://github.com/CaiJiJi/avalanchego.git;
 cd avalanchego;
 go install -v ./vms/example/xsvm/cmd/xsvm;
 ```
@@ -73,7 +73,7 @@ Flags:
 Use "xsvm [command] --help" for more information about a command.
 ```
 
-### [Golang SDK](https://github.com/ava-labs/avalanchego/blob/master/vms/example/xsvm/client/client.go)
+### [Golang SDK](https://github.com/CaiJiJi/avalanchego/blob/master/vms/example/xsvm/client/client.go)
 
 ```golang
 // Client defines xsvm client operations.
@@ -282,10 +282,10 @@ P-Chain.
 
 You can do this by following the [subnet tutorial] or by using the [subnet-cli].
 
-[teleporter]: https://github.com/ava-labs/avalanchego/tree/master/vms/platformvm/teleporter
+[teleporter]: https://github.com/CaiJiJi/avalanchego/tree/master/vms/platformvm/teleporter
 [subnet tutorial]: https://docs.avax.network/build/tutorials/platform/subnets/create-a-subnet
 [subnet-cli]: https://github.com/ava-labs/subnet-cli
-[Coreth]: https://github.com/ava-labs/coreth
+[Coreth]: https://github.com/CaiJiJi/coreth
 [C-Chain]: https://docs.avax.network/learn/platform-overview/#contract-chain-c-chain
 [Subnet]: https://docs.avax.network/learn/platform-overview/#subnets
 

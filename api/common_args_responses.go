@@ -6,10 +6,10 @@ package api
 import (
 	"encoding/json"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/formatting"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/utils/formatting"
 
-	avajson "github.com/ava-labs/avalanchego/utils/json"
+	avajson "github.com/CaiJiJi/avalanchego/utils/json"
 )
 
 // This file contains structs used in arguments and responses in services

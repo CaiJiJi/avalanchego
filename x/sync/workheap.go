@@ -8,8 +8,8 @@ import (
 
 	"github.com/google/btree"
 
-	"github.com/ava-labs/avalanchego/utils/heap"
-	"github.com/ava-labs/avalanchego/utils/maybe"
+	"github.com/CaiJiJi/avalanchego/utils/heap"
+	"github.com/CaiJiJi/avalanchego/utils/maybe"
 )
 
 // A priority queue of syncWorkItems.

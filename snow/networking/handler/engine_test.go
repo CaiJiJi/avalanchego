@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/proto/pb/p2p"
+	"github.com/CaiJiJi/avalanchego/proto/pb/p2p"
 )
 
 func TestEngineManager_Get(t *testing.T) {

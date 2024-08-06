@@ -6,9 +6,9 @@ package tmpnet
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/config"
-	"github.com/ava-labs/avalanchego/genesis"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
+	"github.com/CaiJiJi/avalanchego/config"
+	"github.com/CaiJiJi/avalanchego/genesis"
+	"github.com/CaiJiJi/avalanchego/utils/crypto/secp256k1"
 )
 
 func LocalNetworkOrPanic() *Network {

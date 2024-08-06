@@ -8,10 +8,10 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
+	"github.com/CaiJiJi/avalanchego/snow/engine/common"
+	"github.com/CaiJiJi/avalanchego/vms/platformvm/txs"
 
-	txmempool "github.com/ava-labs/avalanchego/vms/txs/mempool"
+	txmempool "github.com/CaiJiJi/avalanchego/vms/txs/mempool"
 )
 
 var (

@@ -13,8 +13,8 @@ import (
 	reflect "reflect"
 	time "time"
 
-	ids "github.com/ava-labs/avalanchego/ids"
-	bls "github.com/ava-labs/avalanchego/utils/crypto/bls"
+	ids "github.com/CaiJiJi/avalanchego/ids"
+	bls "github.com/CaiJiJi/avalanchego/utils/crypto/bls"
 	gomock "go.uber.org/mock/gomock"
 )
 

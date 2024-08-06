@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/api/info"
-	"github.com/ava-labs/avalanchego/tests/fixture/e2e"
+	"github.com/CaiJiJi/avalanchego/api/info"
+	"github.com/CaiJiJi/avalanchego/tests/fixture/e2e"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )

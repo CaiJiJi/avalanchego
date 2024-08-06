@@ -8,7 +8,7 @@ import (
 	"cmp"
 	"slices"
 
-	"github.com/ava-labs/avalanchego/utils/hashing"
+	"github.com/CaiJiJi/avalanchego/utils/hashing"
 )
 
 // TODO can we handle sorting where the Compare function relies on a codec?

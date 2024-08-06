@@ -3,7 +3,7 @@
 
 package block
 
-import "github.com/ava-labs/avalanchego/codec"
+import "github.com/CaiJiJi/avalanchego/codec"
 
 func Parse(c codec.Manager, b []byte) (Block, error) {
 	var blk Block

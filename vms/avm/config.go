@@ -6,7 +6,7 @@ package avm
 import (
 	"encoding/json"
 
-	"github.com/ava-labs/avalanchego/vms/avm/network"
+	"github.com/CaiJiJi/avalanchego/vms/avm/network"
 )
 
 var DefaultConfig = Config{

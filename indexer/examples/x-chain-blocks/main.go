@@ -8,11 +8,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/indexer"
-	"github.com/ava-labs/avalanchego/vms/proposervm/block"
-	"github.com/ava-labs/avalanchego/wallet/chain/x/builder"
-	"github.com/ava-labs/avalanchego/wallet/subnet/primary"
+	"github.com/CaiJiJi/avalanchego/ids"
+	"github.com/CaiJiJi/avalanchego/indexer"
+	"github.com/CaiJiJi/avalanchego/vms/proposervm/block"
+	"github.com/CaiJiJi/avalanchego/wallet/chain/x/builder"
+	"github.com/CaiJiJi/avalanchego/wallet/subnet/primary"
 )
 
 // This example program continuously polls for the next X-Chain block

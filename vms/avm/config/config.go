@@ -3,7 +3,7 @@
 
 package config
 
-import "github.com/ava-labs/avalanchego/upgrade"
+import "github.com/CaiJiJi/avalanchego/upgrade"
 
 // Struct collecting all the foundational parameters of the AVM
 type Config struct {

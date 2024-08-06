@@ -3,7 +3,7 @@
 
 package p2p
 
-import "github.com/ava-labs/avalanchego/snow/engine/common"
+import "github.com/CaiJiJi/avalanchego/snow/engine/common"
 
 var (
 	// ErrUnexpected should be used to indicate that a request failed due to a

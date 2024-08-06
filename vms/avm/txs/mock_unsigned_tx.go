@@ -12,10 +12,10 @@ package txs
 import (
 	reflect "reflect"
 
-	ids "github.com/ava-labs/avalanchego/ids"
-	snow "github.com/ava-labs/avalanchego/snow"
-	set "github.com/ava-labs/avalanchego/utils/set"
-	avax "github.com/ava-labs/avalanchego/vms/components/avax"
+	ids "github.com/CaiJiJi/avalanchego/ids"
+	snow "github.com/CaiJiJi/avalanchego/snow"
+	set "github.com/CaiJiJi/avalanchego/utils/set"
+	avax "github.com/CaiJiJi/avalanchego/vms/components/avax"
 	gomock "go.uber.org/mock/gomock"
 )
 

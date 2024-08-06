@@ -6,8 +6,8 @@ package avalanche
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowstorm"
+	"github.com/CaiJiJi/avalanchego/snow/choices"
+	"github.com/CaiJiJi/avalanchego/snow/consensus/snowstorm"
 )
 
 var _ Vertex = (*TestVertex)(nil)
